@@ -44,7 +44,7 @@ export const ChangeFuncs = (coreClass) =>
     additionalInfo(data) {
       this.copy();
       this.part1 = data.part1;
-      this._this.part2 = data.part2;
+      this.part2 = data.part2;
       this.copy();
       return this._this;
     }

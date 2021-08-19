@@ -1,6 +1,6 @@
-import { Core } from "../core";
+import { Field } from "../core";
 
-const data = new Core().with.label("Kameron Kales").and.isEditable();
+const data = new Field().with.label("Kameron Kales").and.isEditable();
 
 console.log({ data });
 

@@ -1,6 +1,6 @@
 import { CompositeMixins } from "./composite-core";
 
-export class Core extends CompositeMixins() {
+export class Field extends CompositeMixins() {
   constructor() {
     super();
     this.editable = false;
