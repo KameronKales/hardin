@@ -1,0 +1,28 @@
+{
+  "name": "prefire",
+  "version": "0.0.1",
+  "description": "A fluent DSL for UI teams to translate between view libraries! ",
+  "main": "dist/core.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node examples/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KameronKales/prefire.git"
+  },
+  "author": "Kameron Kales",
+  "license": "MIT ",
+  "bugs": {
+    "url": "https://github.com/KameronKales/prefire/issues"
+  },
+  "homepage": "https://github.com/KameronKales/prefire#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/node": "^7.14.9"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.15.0",
+    "prettier": "^2.3.2"
+  }
+}
