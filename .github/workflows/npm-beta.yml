@@ -15,7 +15,6 @@ jobs:
           node-version: 14
       - run: npm ci
       - run: npm test
-      - run: npm run build
 
   publish-npm:
     needs: build
@@ -30,6 +29,7 @@ jobs:
           node-version: 14
           registry-url: "https://registry.npmjs.org"
       - run: npm ci
+      - run: npm run build
       - run: npm publish --tag beta
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
