@@ -1,6 +1,6 @@
 {
   "name": "@kameronkales/prefire",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A fluent DSL for UI teams to translate between view libraries! ",
   "main": "dist/lib",
   "scripts": {
@@ -11,7 +11,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm --no-git-tag-version version patch && git add package.json && npm add package-lock.json"
+      "pre-commit": "npm --no-git-tag-version version patch && git add package.json && git add package-lock.json"
     }
   },
   "repository": {
