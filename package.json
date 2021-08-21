@@ -14,7 +14,7 @@
     "url": "git+https://github.com/KameronKales/prefire.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@KameronKales"
+    "registry": "https://npm.pkg.github.com/KameronKales"
   },
   "author": "Kameron Kales",
   "license": "MIT ",
