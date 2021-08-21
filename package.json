@@ -9,6 +9,11 @@
     "build": "tsc",
     "start:examples": "tsc examples/index.ts && node examples/index.js"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm --no-git-tag-version version patch && git add package.json"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/KameronKales/prefire.git"
@@ -30,5 +35,7 @@
     "prettier": "^2.3.2",
     "typescript": "^4.3.5"
   },
-  "dependencies": {}
+  "dependencies": {
+    "husky": "^7.0.1"
+  }
 }
