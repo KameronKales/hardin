@@ -1,0 +1,42 @@
+{
+  "name": "@kameronkales/hardin",
+  "version": "0.0.15",
+  "description": "A fluent DSL for UI teams to translate between view libraries! All JS",
+  "main": "dist/lib",
+  "scripts": {
+    "test": "jest",
+    "start": "tsc --watch",
+    "build": "tsc",
+    "start:examples": "tsc examples/index.ts && node examples/index.js"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm --no-git-tag-version version patch && git add package.json && git add package-lock.json"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KameronKales/hardin.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/KameronKales"
+  },
+  "author": "Kameron Kales",
+  "license": "MIT ",
+  "bugs": {
+    "url": "https://github.com/KameronKales/hardin/issues"
+  },
+  "homepage": "https://hardin.app",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/node": "^7.14.9",
+    "@babel/preset-env": "^7.15.0",
+    "husky": "^4.3.8",
+    "jest": "^27.0.6",
+    "prettier": "^2.3.2",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "package-lock.json": "^1.0.0"
+  }
+}
