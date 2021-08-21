@@ -1,6 +1,6 @@
 {
   "name": "@holdequity/hardin",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "A fluent DSL for UI teams to translate between view libraries! All JS",
   "main": "dist/lib",
   "scripts": {
