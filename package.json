@@ -1,6 +1,6 @@
 {
   "name": "@kameronkales/hardin",
-  "version": "0.0.17",
+  "version": "0.0.18",
   "description": "A fluent DSL for UI teams to translate between view libraries! All JS",
   "main": "dist/lib",
   "scripts": {
