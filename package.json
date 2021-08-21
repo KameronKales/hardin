@@ -1,6 +1,6 @@
 {
   "name": "@kameronkales/prefire",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A fluent DSL for UI teams to translate between view libraries! ",
   "main": "dist/lib",
   "scripts": {
