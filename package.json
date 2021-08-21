@@ -1,6 +1,6 @@
 {
   "name": "@holdequity/hardin",
-  "version": "0.0.21",
+  "version": "0.0.22",
   "description": "A fluent DSL for UI teams to translate between view libraries! All JS",
   "main": "dist/lib",
   "scripts": {
@@ -22,6 +22,7 @@
     "url": "git+https://github.com/holdequity/hardin.git"
   },
   "publishConfig": {
+    "access": "public",
     "registry": "https://registry.npmjs.org"
   },
   "author": "Kameron Kales",
