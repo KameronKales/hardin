@@ -1,0 +1,52 @@
+{
+  "name": "@holdequity/core",
+  "version": "0.0.1",
+  "description": "A fluent DSL for UI teams to translate between view libraries! All JS",
+  "main": "dist/lib",
+  "typings": "dist/types",
+  "scripts": {
+    "test": "jest",
+    "start": "tsc --watch",
+    "build": "tsc",
+    "link": "npm link"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm --no-git-tag-version version patch && git add package.json && git add package-lock.json"
+    }
+  },
+  "files": [
+    "dist/**",
+    ".eslintrc.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holdequity/hardin.git"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "author": "Kameron Kales",
+  "license": "MIT ",
+  "bugs": {
+    "url": "https://github.com/holdequity/hardin/issues"
+  },
+  "homepage": "https://hardin.app",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/node": "^7.14.9",
+    "@babel/preset-env": "^7.15.0",
+    "@typescript-eslint/eslint-plugin": "^4.29.2",
+    "@typescript-eslint/parser": "^4.29.2",
+    "eslint": "^7.32.0",
+    "husky": "^4.3.8",
+    "jest": "^27.0.6",
+    "prettier": "^2.3.2",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "@babel/preset-react": "^7.14.5",
+    "package-lock.json": "^1.0.0"
+  }
+}
